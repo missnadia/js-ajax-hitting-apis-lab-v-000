@@ -8,8 +8,8 @@ function getRepositories() {
   return false;
 }
 
-function getCommits() {
-  
+function getCommits(x) {
+  const repoName = x.dataset.repository
 }
 
 function displayCommits() {
