@@ -22,8 +22,7 @@ function displayRepositories() {
             <a href="#" ${dataRepoName} ${dataUsername} onclick="getCommits(this)">Get Commits</a><br>
             <a href="#" ${dataRepoName} ${dataUsername} onclick="getBranches(this)">Get Branches</a></li>
           </li>`;
-      })
-      .join('') + '</ul>';
+      }).join('') + '</ul>';
   document.getElementById('repositories').innerHTML = repoList;
 }
 
