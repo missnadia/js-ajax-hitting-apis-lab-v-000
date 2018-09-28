@@ -5,7 +5,6 @@ function getRepositories() {
   xhr.addEventListener('load', displayRepositories);
   xhr.open('GET', uri);
   xhr.send();
-  return false;
 }
 
 function displayRepositories() {
