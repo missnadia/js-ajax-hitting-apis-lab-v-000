@@ -8,4 +8,18 @@ function getRepositories() {
   return false;
 }
 
-function 
+function getCommits() {
+  
+}
+
+function displayCommits() {
+  
+}
+
+function getBranches() {
+  
+}
+
+function displayBranches() {
+  
+}
