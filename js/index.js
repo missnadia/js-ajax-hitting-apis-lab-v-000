@@ -9,7 +9,8 @@ function getRepositories() {
 }
 
 function getCommits(x) {
-  const repoName = x.dataset.repository
+  const repoName = x.dataset.repository;
+  const uri = 'https://api.github.com' + '/repos/' + x.dataset.username + '/repos';
 }
 
 function displayCommits() {
