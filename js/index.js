@@ -1,4 +1,5 @@
-// your code here
 function getRepositories() {
-  repositories
+  const name = document.getElementById('username').value;
+  const uri = 'https://api.github.com' + '/users/' + name + '/repos';
+  const xhr = new XMLHttpRequest();
 }
